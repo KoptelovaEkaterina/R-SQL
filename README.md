@@ -36,8 +36,18 @@ INSERT INTO Kontynent VALUES ('Cirilla', 'human', 'female', 'Cintra', 'princess'
 ('Mousesack', 'human', 'male', 'Skellige', 'druid', 'Magic', NULL),
 ('Eist Tuirseach', 'human', 'male', 'Skellige', 'king', 'Fighting', NULL),
 ('Emhyr var Emreis', 'human', 'male', 'Nilfgaard', 'emperor', 'Fighting', 51),
+('Tissaia de Vries', 'human', 'female', 'Temeria', 'mage', 'Magic', NULL),
+('Istredd', 'human', 'male', 'Kovir', 'mage', 'Magic', 75),
+('Stregobor', 'human', 'male', 'Kovir', 'mage', 'Magic', 478),
+('Fringilla', 'human', 'female', 'Nilfgaard', 'mage', 'Magic', 70),
 ('Francesca Findabair', 'elf', 'female', 'Dol Blathanna', 'queen', 'Magic', NULL),
-('Adda', 'human', 'female', 'Temeria', 'princess', 'striga', 14)
+('Adda the White', 'human', 'female', 'Temeria', 'princess', 'striga', 14),
+('Foltest',	'human',	'male',	'Temeria',	'king',	'Fighting', 45)
+('Sabrina Glevissig', 'human', 'female', 'Kaedwen', 'mage', 'Magic', 73),
+('Vilgefortz', 'human', 'male', 'Kaedwen', 'mage', 'Fighting', 35),
+('Eithne', 'driad', 'female', 'Brokilon', 'queen', 'Wisdom', NULL),
+('Nenneke',	'human',	'female',	'Temeria',	'clergy',	'Healing',	NULL)
+
 ```
 That is the table.
 |name|race |gender |country |status |ability |age | 
