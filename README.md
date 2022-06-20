@@ -29,7 +29,7 @@ INSERT INTO Kontynent VALUES ('Cirilla', 'human', 'female', 'Cintra', 'princess'
 ('Pavetta', 'human', 'female', 'Cintra', 'princess', 'Elder blood gene', 16),
 ('Filavandrel aep Fidhail', 'elf', 'male', 'Dol Blathanna', 'king', 'Fighting', NULL),
 ('Triss Merigold', 'human', 'female', 'Temeria', 'mage', 'Magic', 37),
-('Renfri',	'human',	'female',	'Creyden',	'princess',	'Fighting',	18)
+('Renfri', 'human', 'female', 'Creyden', 'princess', 'Fighting', 18)
 ('Calanthe', 'human', 'female', 'Cintra', 'queen', 'Fighting', 45),
 ('Cahir Mawr Dyffryn aep Ceallach', 'human', 'male', 'Nilfgaard', 'knight', 'Fighting', 25),
 ('Vesemir', 'mutant', 'male', 'Nilfgaard', 'witcher', 'Superhuman abilities', 330),
@@ -42,11 +42,11 @@ INSERT INTO Kontynent VALUES ('Cirilla', 'human', 'female', 'Cintra', 'princess'
 ('Fringilla', 'human', 'female', 'Nilfgaard', 'mage', 'Magic', 70),
 ('Francesca Findabair', 'elf', 'female', 'Dol Blathanna', 'queen', 'Magic', NULL),
 ('Adda the White', 'human', 'female', 'Temeria', 'princess', 'striga', 14),
-('Foltest',	'human',	'male',	'Temeria',	'king',	'Fighting', 45)
+('Foltest', 'human', 'male', 'Temeria', 'king', 'Fighting', 45)
 ('Sabrina Glevissig', 'human', 'female', 'Kaedwen', 'mage', 'Magic', 73),
 ('Vilgefortz', 'human', 'male', 'Kaedwen', 'mage', 'Fighting', 35),
 ('Eithne', 'driad', 'female', 'Brokilon', 'queen', 'Wisdom', NULL),
-('Nenneke',	'human', 'female', 'Temeria', 'clergy', 'Healing', NULL)
+('Nenneke', 'human', 'female', 'Temeria', 'clergy', 'Healing', NULL)
 
 ```
 That is the table.
