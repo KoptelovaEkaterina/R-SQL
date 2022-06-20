@@ -49,7 +49,7 @@ INSERT INTO Kontynent VALUES ('Cirilla', 'human', 'female', 'Cintra', 'princess'
 ('Nenneke', 'human', 'female', 'Temeria', 'clergy', 'Healing', NULL)
 
 ```
-That is the table.
+The table with values.
 |name|race |gender |country |status |ability |age | 
 |--|---|--|--|--|---|--|
 |Cirilla	|human|	female|	Cintra|	princess|	Elder blood gene|	13|
