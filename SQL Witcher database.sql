@@ -1,8 +1,6 @@
 # Witcher SQL database
 
-I created a table with the headers name, race, gender, country, status, ability and age. 
-Primary key is name. 
-Age mustn't be lower then zero.  
+#I created a table with the headers name, race, gender, country, status, ability and age. Primary key is name. Age mustn't be lower then zero.  
 
 
  CREATE TABLE Kontynent (
@@ -18,7 +16,7 @@ Age mustn't be lower then zero.
 );
 
 
-Then I added values matching the headers. I put the words in 'quotes', numbers leave without. For missing values I used NULL.
+# Then I added values matching the headers. I put the words in 'quotes', numbers leave without. For missing values I used NULL.
 
 
 INSERT INTO Kontynent VALUES ('Cirilla', 'human', 'female', 'Cintra', 'princess', 'Elder blood gene', 13),
