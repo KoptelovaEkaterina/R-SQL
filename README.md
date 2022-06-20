@@ -46,7 +46,7 @@ INSERT INTO Kontynent VALUES ('Cirilla', 'human', 'female', 'Cintra', 'princess'
 ('Sabrina Glevissig', 'human', 'female', 'Kaedwen', 'mage', 'Magic', 73),
 ('Vilgefortz', 'human', 'male', 'Kaedwen', 'mage', 'Fighting', 35),
 ('Eithne', 'driad', 'female', 'Brokilon', 'queen', 'Wisdom', NULL),
-('Nenneke',	'human',	'female',	'Temeria',	'clergy',	'Healing',	NULL)
+('Nenneke',	'human', 'female', 'Temeria', 'clergy', 'Healing', NULL)
 
 ```
 That is the table.
