@@ -2,7 +2,7 @@
 
 ![Github](https://www.belloflostsouls.net/wp-content/uploads/2019/11/The-Witcher-TV-Series.jpg)
 
-I created a table with the headers name, race, gender, country, status, ability and age. 
+I created a table Kontynent with the headers name, race, gender, country, status, ability and age. 
 Primary key is name. 
 Age mustn't be lower then zero.  
 ```sql
