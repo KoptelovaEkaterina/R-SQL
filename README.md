@@ -84,6 +84,7 @@ The table with values.
 I created three tables heroesname, country, possesions. Then I linked the tables with each other.
 
 ### heroesname
+Creating a table
 ```sql
 
 CREATE TABLE heroesname (
@@ -120,6 +121,7 @@ Table heroesname.
 |10	|Tissaia|	mage|
 
 ### country
+Creating a table
 ```sql
 
 CREATE TABLE country (
@@ -150,7 +152,7 @@ The face of table country.
 
 
 ### possesions
-
+Creating a table
 ```sql
 
 CREATE TABLE possesions (
