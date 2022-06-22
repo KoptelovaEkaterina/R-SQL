@@ -84,7 +84,7 @@ INSERT INTO country VALUES (1, 'Cintra'), (2, 'Nilfgaard'), (3, 'Temeria'), (4, 
 INSERT INTO heroesname VALUES (1, 'Pavetta', 'status'), (2, 'Cahir', 'knight'), (3, 'Triss', 'mage'), (4, 'Geralt', 'witcher'),
 (5, 'Yennefer', 'mage'), (6, 'Jaskier', 'bard'), (7, 'Filavandrel', 'king'), (8, 'Renfri', 'princess'), (9, 'Calanthe', 'queen'), (10, 'Tissaia', 'mage')
 
-INSERT INTO possesions VALUES (2, 2, 2), (3, 3, 3), (4, 4, 4), (5, 5, 5), (6, 6, 6), (7, 7, 7), (8, 8, 8)
+INSERT INTO possesions VALUES (2, 2, 2), (3, 3, 3), (4, 4, 4), (5, 5, 5), (6, 6, 6), (7, 7, 7), (8, 8, 8), (9, 9, 1), (10, 10, 3)
 
 
 
