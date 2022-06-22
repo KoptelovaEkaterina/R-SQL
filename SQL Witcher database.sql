@@ -1,5 +1,7 @@
 # Witcher SQL database
 
+# Creating the tables
+
 #I created a table with the headers name, race, gender, country, status, ability and age. Primary key is name. Age mustn't be lower then zero.  
 
 
@@ -44,4 +46,47 @@ INSERT INTO Kontynent VALUES ('Cirilla', 'human', 'female', 'Cintra', 'princess'
 ('Vilgefortz', 'human', 'male', 'Kaedwen', 'mage', 'Fighting', 35),
 ('Eithne', 'driad', 'female', 'Brokilon', 'queen', 'Wisdom', NULL),
 ('Nenneke',	'human',	'female',	'Temeria',	'clergy',	'Healing',	NULL)
+
+
+
+# Linking tables
+
+CREATE TABLE heroesname (
+  hero INTEGER,
+  name VARCHAR (30),
+  status VARCHAR (30),
+  PRIMARY KEY (hero)
+);
+
+CREATE TABLE country (
+  country_id INTEGER,
+  country_name VARCHAR (30),
+  PRIMARY KEY (country_id)
+);
+
+
+CREATE TABLE possesions (
+  possesions_id INTEGER,
+  hero INTEGER,
+  country_id INTEGER,  
+  PRIMARY KEY (possesions_id),
+  FOREIGN KEY (hero)
+    REFERENCES heroesname (hero),
+  FOREIGN KEY (country_id)
+    REFERENCES country (country_id)  
+);
+
+
+# Filling in the tables
+
+INSERT INTO country VALUES (1, 'Cintra'), (2, 'Nilfgaard'), (3, 'Temeria'), (4, 'Rivia'), (5, 'Aedirn'), (6, 'Redania'),  (7, 'Dol Blathanna'), (8, 'Creyden')
+
+INSERT INTO heroesname VALUES (1, 'Pavetta', 'status'), (2, 'Cahir', 'knight'), (3, 'Triss', 'mage'), (4, 'Geralt', 'witcher'),
+(5, 'Yennefer', 'mage'), (6, 'Jaskier', 'bard'), (7, 'Filavandrel', 'king'), (8, 'Renfri', 'princess'), (9, 'Calanthe', 'queen')
+
+INSERT INTO possesions VALUES (2, 2, 2), (3, 3, 3), (4, 4, 4), (5, 5, 5), (6, 6, 6), (7, 7, 7), (8, 8, 8)
+
+
+
+
 
